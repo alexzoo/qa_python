@@ -15,3 +15,4 @@ def test_google_should_find():
 @pytest.fixture()
 def change_resolution():
     browser.driver.set_window_size(800, 600)
+    pass
